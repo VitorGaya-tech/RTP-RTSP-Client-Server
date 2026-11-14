@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Frames written by the client while playing
+cache-*.jpg
+
+# Video files (large, often copyrighted): keep only the empty folder
+videos/*
+!videos/.gitkeep
+
+# Local secrets / configuration
+.env
+*.local
+
+# Editors, OS, logs, build output
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+build/
+dist/
+*.spec

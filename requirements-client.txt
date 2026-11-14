@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+requests
+Pillow
+# tkinter não vem pelo pip: no Windows/macOS já acompanha o Python;
+# no Linux: sudo apt install python3-tk
